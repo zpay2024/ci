@@ -1,6 +1,4 @@
-ghcr.io/zpay2024/zpay:main
-ghcr.io/zpay2024/zpay:latest
-ghcr.io/zpay2024/zpay:sha-6b6d011
-ghcr.io/zpay2024/zpay.app:main
-ghcr.io/zpay2024/zpay.app:latest
-ghcr.io/zpay2024/zpay.app:sha-6b6d011
+ghcr.io/zpay2024/zpay:ui-money-pay-flow
+ghcr.io/zpay2024/zpay:sha-00bba18
+ghcr.io/zpay2024/zpay.app:ui-money-pay-flow
+ghcr.io/zpay2024/zpay.app:sha-00bba18
