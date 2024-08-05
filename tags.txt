@@ -1,6 +1,4 @@
-ghcr.io/zpay2024/zpay:main
-ghcr.io/zpay2024/zpay:latest
-ghcr.io/zpay2024/zpay:sha-7e14f00
-ghcr.io/zpay2024/zpay.app:main
-ghcr.io/zpay2024/zpay.app:latest
-ghcr.io/zpay2024/zpay.app:sha-7e14f00
+ghcr.io/zpay2024/zpay:e2e-redirections
+ghcr.io/zpay2024/zpay:sha-fdee6c1
+ghcr.io/zpay2024/zpay.app:e2e-redirections
+ghcr.io/zpay2024/zpay.app:sha-fdee6c1
