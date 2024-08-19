@@ -91,7 +91,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          repository: ${{env.REPO_1}}
+          repository: ${{env.REPO}}
           token: ${{ secrets.TOKEN_GITHUB }}
           fetch-depth: 1
           # fetch-tags: true
