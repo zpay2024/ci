@@ -1,8 +1,8 @@
-org.opencontainers.image.created=2024-08-07T19:35:28.928Z
+org.opencontainers.image.created=2024-08-20T21:21:08.703Z
 org.opencontainers.image.description=
 org.opencontainers.image.licenses=
-org.opencontainers.image.revision=47018c34ce7cf92c0ca6bc5b28b7b056ef7e5f12
+org.opencontainers.image.revision=974ffe6bd54745d72e547f3cdfd3b8ccd509e89e
 org.opencontainers.image.source=https://github.com/zpay2024/zpay
 org.opencontainers.image.title=zpay
 org.opencontainers.image.url=https://github.com/zpay2024/zpay
-org.opencontainers.image.version=main
+org.opencontainers.image.version=be-biconomy-smart-wallet
