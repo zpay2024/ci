@@ -1,6 +1,6 @@
-ghcr.io/zpay2024/zpay:main
-ghcr.io/zpay2024/zpay:latest
-ghcr.io/zpay2024/zpay:sha-47018c3
-ghcr.io/zpay2024/zpay.app:main
-ghcr.io/zpay2024/zpay.app:latest
-ghcr.io/zpay2024/zpay.app:sha-47018c3
+ghcr.io/zpay2024/zpay:0.2.0-alpha
+ghcr.io/zpay2024/zpay:v0.2.0-alpha
+ghcr.io/zpay2024/zpay:sha-974ffe6
+ghcr.io/zpay2024/zpay.app:0.2.0-alpha
+ghcr.io/zpay2024/zpay.app:v0.2.0-alpha
+ghcr.io/zpay2024/zpay.app:sha-974ffe6
