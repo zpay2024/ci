@@ -1,7 +1,7 @@
-org.opencontainers.image.created=2024-08-07T19:35:28.928Z
+org.opencontainers.image.created=2024-08-22T23:14:34.356Z
 org.opencontainers.image.description=
 org.opencontainers.image.licenses=
-org.opencontainers.image.revision=47018c34ce7cf92c0ca6bc5b28b7b056ef7e5f12
+org.opencontainers.image.revision=f51561f0f44fae7f6caf16d1f7da59506209e122
 org.opencontainers.image.source=https://github.com/zpay2024/zpay
 org.opencontainers.image.title=zpay
 org.opencontainers.image.url=https://github.com/zpay2024/zpay
