@@ -119,6 +119,19 @@ jobs:
         with:
           path: labels.txt
 
+
+      - name: Read tags
+        id: tags-lite
+        uses: jaywcjlove/github-action-read-file@main
+        with:
+          path: tags-lite.txt
+
+      - name: Read labels
+        id: labels-lite
+        uses: jaywcjlove/github-action-read-file@main
+        with:
+          path: labels-lite.txt
+
       - name: Actor
         run: |
           echo ${{github.actor}}
@@ -143,3 +156,21 @@ jobs:
 
           # cache-from: type=local,src=/tmp/.buildx-cache
           # cache-to: type=local,dest=/tmp/.buildx-cache-new,mode=min
+
+      - name: Build and push Lite image
+        uses: docker/build-push-action@v5
+        with:
+          context: Dockerfile.lite
+          platforms: linux/amd64,linux/arm64
+          push: ${{ github.event_name != 'pull_request' }}
+          # push: true
+          tags: ${{ steps.tags-lite.outputs.content }}
+          labels: ${{ steps.labels-lite.outputs.content}}
+          # build-args: HUGGINGFACE_TOKEN=${{secrets.HUGGINGFACE_TOKEN}}
+          github-token: ${{github.token}} #make sure to update permissions for repo in github package settings
+          # cache-from: type=registry,ref=user/app:latest
+          # cache-to: type=inline
+          # cache-from: type=registry,ref=user/app:buildcache
+          # cache-to: type=registry,ref=user/app:buildcache,mode=max
+          cache-from: type=gha #Don't use cuz of cache limits our image size is way bigger than 10GB
+          cache-to: type=gha,mode=max
