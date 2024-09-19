@@ -160,7 +160,8 @@ jobs:
       - name: Build and push Lite image
         uses: docker/build-push-action@v5
         with:
-          context: Dockerfile.lite
+          context: .
+          file: Dockerfile.lite
           platforms: linux/amd64,linux/arm64
           push: ${{ github.event_name != 'pull_request' }}
           # push: true
